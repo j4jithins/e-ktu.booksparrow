@@ -1,0 +1,100 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <title>index</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/jquery.mobile-1.4.5.js"></script>
+    <style>
+    </style>
+</head>
+
+<body>
+    <!-- External header code -->
+    <div data-role="header" data-position="fixed" data-theme="a">
+        <a href="EE401" data-rel="back" class="ui-btn ui-btn-left ui-alt-icon ui-nodisc-icon ui-corner-all ui-btn-icon-notext ui-icon-carat-l"></a>
+        <h1>E KTU</h1>
+        <a href="#left-panel" data-icon="bars" data-iconpos="notext"></a>
+    </div><!-- /header -->
+
+
+
+
+    <!-- home page code -->
+    <div data-role="page" id="home-page">
+        <!-- homepage content wrapping -- necessory for proper panel animations -->
+        <div role="main" class="ui-content">
+            <!--branch names-->
+            <div class="ui-grid-a">
+                <div class="ui-block-a" onclick="pageCatcher('eee',0)"><a href="#branch-page" class="ui-shadow ui-btn ui-corner-all"><img src="images/eee.svg" width="50" align= "absmiddle"><br>EEE</a></div>
+                <div class="ui-block-b" onclick="pageCatcher('ec',0)"><a href="#branch-page" class="ui-shadow ui-btn ui-corner-all"><img src="images/ec.svg" width="50" align= "absmiddle"><br>EC</a></div>
+                <div class="ui-block-a" onclick="pageCatcher('ce',0)"><a href="#branch-page" class="ui-shadow ui-btn ui-corner-all"><img src="images/ce.svg" width="50" align= "absmiddle"><br>CE</a></div>
+                <div class="ui-block-b" onclick="pageCatcher('me',0)"><a href="#branch-page" class="ui-shadow ui-btn ui-corner-all"><img src="images/me.svg" width="50" align= "absmiddle"><br>ME</a></div>
+                <div class="ui-block-a" onclick="pageCatcher('cs',0)"><a href="#branch-page" class="ui-shadow ui-btn ui-corner-all"><img src="images/cs.svg" width="50" align= "absmiddle"><br>CS</a></div>
+                <div class="ui-block-b" onclick="pageCatcher('aei',0)"><a href="#branch-page" class="ui-shadow ui-btn ui-corner-all"><img src="images/aei.svg" width="50" align= "absmiddle"><br>AEI</a></div>
+            </div><!-- /branch names-->
+        </div><!-- /content -->
+    </div><!-- /home page -->
+
+
+
+
+
+
+
+    <!-- branch code -->
+    <div data-role="page" id="branch-page">
+        <!-- branch content wrapping -- necessory for proper panel animations -->
+        <div role="main" class="ui-content">
+            <!--semester names-->
+            <div class="ui-grid-solo">
+                <div class="ui-block-a" onclick="pageCatcher(0,'s12')">
+                    <a href="#" class="ui-shadow ui-btn ui-corner-all"><img src="images/s.svg" width="50" align= "absmiddle">&nbsp;<img src="images/one.svg" width="50" align= "absmiddle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/s.svg" width="50" align= "absmiddle">&nbsp;<img src="images/two.svg" width="50" align= "absmiddle"></a></div>
+            </div>
+
+            <div class="ui-grid-a ">
+
+                <div class="ui-block-a" onclick="pageCatcher(0,'s3')"><a href="#" class="ui-shadow ui-btn ui-corner-all"><img src="images/s.svg" width="50" align= "absmiddle">&nbsp;<img src="images/three.svg" width="50" align= "absmiddle"><br></a></div>
+                <div class="ui-block-b" onclick="pageCatcher(0,'s4')"><a href="#" class="ui-shadow ui-btn ui-corner-all"><img src="images/s.svg" width="50" align= "absmiddle">&nbsp;<img src="images/four.svg" width="50" align= "absmiddle"><br></a></div>
+                <div class="ui-block-a" onclick="pageCatcher(0,'s5')"><a href="#" class="ui-shadow ui-btn ui-corner-all"><img src="images/s.svg" width="50" align= "absmiddle">&nbsp;<img src="images/five.svg" width="50" align= "absmiddle"><br></a></div>
+                <div class="ui-block-b" onclick="pageCatcher(0,'s6')"><a href="#" class="ui-shadow ui-btn ui-corner-all"><img src="images/s.svg" width="50" align= "absmiddle">&nbsp;<img src="images/six.svg" width="50" align= "absmiddle"><br></a></div>
+                <div class="ui-block-a" onclick="pageCatcher(0,'s7')"><a href="#" class="ui-shadow ui-btn ui-corner-all"><img src="images/s.svg" width="50" align= "absmiddle">&nbsp;<img src="images/seven.svg" width="50" align= "absmiddle"><br></a></div>
+                <div class="ui-block-b" onclick="pageCatcher(0,'s8')"><a href="#" class="ui-shadow ui-btn ui-corner-all"><img src="images/s.svg" width="50" align= "absmiddle">&nbsp;<img src="images/eight.svg" width="50" align= "absmiddle"><br></a></div>
+
+            </div><!-- /semester names-->
+        </div><!-- /branch content -->
+    </div><!-- /branch -->
+
+    <script>
+
+    </script>
+
+
+
+
+
+
+
+    <!-- panel  -->
+    <div data-role="panel" id="left-panel" data-theme="b">
+        <p>Left reveal panel.</p>
+        <a href="#" data-rel="close" class="ui-btn ui-corner-all ui-shadow ui-mini ui-btn-inline ui-icon-delete ui-btn-icon-left ui-btn-right">Close</a>
+    </div><!-- /panel -->
+
+
+    <!-- External footer-->
+    <div data-role="footer" data-position="fixed" data-theme="a">
+        <h1>BOOKSPARROW.COM/E-KTU</h1>
+    </div><!-- /footer -->
+
+
+
+
+
+</body>
+
+</html>
