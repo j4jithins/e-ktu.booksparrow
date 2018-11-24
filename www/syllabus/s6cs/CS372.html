@@ -1,0 +1,164 @@
+
+<html>
+<head>
+<title>
+            
+            
+            
+          CS372
+            
+            
+</title>
+<link rel="stylesheet" href="../../../css/sylb.css">
+<script src="../../../cordova.js"></script> 
+<script type="../../../text/javascript" charset="utf-8">
+function onLoad() {
+document.addEventListener("deviceready", onDeviceReady, false);
+}
+function onDeviceReady() {
+}
+</script>  
+</head>
+<body>
+<div class="head"><b>
+<span id="homespan"><a href="../../../index.html"><img src="../../../images/home.png" id="homeimg"></a></span>
+<center><h1> 
+    
+    
+HIGH PERFORMANCE COMPUTING
+    
+    
+</h1></center>  
+</b></div>  
+<br><br><b>
+    
+    Syllabus
+    
+</b><p>
+            
+            
+            
+            
+Modern processors - pipelining-superscalarity-multicore processors- Mutithreaded processors- vector processors- basic optimization techniques for serial code - taxonomy of parallel computing paradigms- shared memory computers- distributed-memory computers- Hierarchical Systems- networks- basics of parallelization - data parallelism - function parallelism- Parallel scalability- shared memory parallel programming with OpenMp - Distributed-memory parallel programming with MPI.
+            
+            
+     </p><br><div class="div1"><b>&nbsp; Module I<div class="div2">15%</div> </b> </div>
+        
+         
+         
+
+         
+      Modern Processors : Stored Program Computer Architecture- General purpose cache- based microprocessor-Performance based metrics and benchmarks- Moore's Law- Pipelining- Superscalarity-SIMD- Memory Hierarchies Cache- mapping- prefetch- Multicore processors- Mutithreaded processors- Vector Processors- Design Principles- Maximum performance estimates- Programming for vector architecture.
+
+         
+         
+<br><br><div class="div1"><b> &nbsp; Module II<div class="div2">15%</div> </b> </div>
+       
+         
+    
+         
+         
+ Basic optimization techniques for serial code : scalar profiling- function and line based runtime profiling- hardware performance counters- common sense optimizations- simple measures, large impact- elimination of common subexpressions- avoiding branches- using simd instruction sets- the role of compilers - general optimization options- inlining - aliasing- computational accuracy- register optimizations- using compiler logs- c++ optimizations - temporaries- dynamic memory management- loop kernels and iterators data access optimization: balance analysis and light speed estimates- storage order- case study: jacobi algorithm and dense matrix transpose..
+         
+<hr>FIRST INTERNAL EXAMINATION<hr>
+<br><div class="div1"><b>&nbsp; Module III<div class="div2">15%</div> </b> </div>
+       
+         
+         
+
+         
+         
+   Parallel Computers : Taxonomy of parallel computing paradigms- Shared memory computers- Cache coherance- UMA - ccNUMA- Distributed-memory computers- Hierarchical systems- Networks- Basic performance characteristics- Buses- Switched and fat- tree networks- Mesh networks- Hybrids - Basics of parallelization - Why parallelize - Data Parallelism - Function Parallelism- Parallel Scalability- Factors that limit parallel execution- Scalability metrics- Simple scalability laws- parallel efficiency - serial performance Vs Strong scalability- Refined performance models- Choosing the right scaling baseline- Case Study: Can slow processors compute faster- Load balance.
+         
+         
+         
+<br><br><div class="div1"><b>&nbsp; Module IV<div class="div2">15%</div> </b> </div>
+        
+
+         
+         
+   Distributed memory parallel programming with MPI : message passing - introduction to MPI – example - messages and point-to-point communication - collective communication – nonblocking point-to-point communication- virtual topologies - MPI parallelization of Jacobi solver- MPI implementation - performance properties
+         
+<hr>SECOND INTERNAL EXAMINATION<hr>
+<br><div class="div1"><b>&nbsp; Module V<div class="div2">20%</div> </b> </div>
+      
+         
+         
+
+         
+         
+  Shared memory parallel programming with OpenMp : introduction to OpenMp - parallel execution - data scoping- OpenMp work sharing for loops- synchronization - reductions - loop scheduling - tasking - case study: OpenMp- parallel jacobi algorithm- advanced OpenMpwavefront parallelization- Efficient OpenMP programming: Profiling OpenMP programs - Performance pitfalls- Case study: Parallel Sparse matrix-vector multiply.
+         
+<br><br><div class="div1"><b>&nbsp; Module VI<div class="div2">20%</div> </b> </div>
+        
+         
+
+         
+  Efficient MPI programming : MPI performance tools- communication parameters- Synchronization, serialization, contention- Reducing communication overhead- optimal domain decomposition- Aggregating messages – Nonblocking Vs Asynchronous communication- Collective communication- Understanding intra-node point-to-point communication.
+  
+
+
+<hr>END SEMESTER EXAM<hr> 
+<br><div class="div3"></div><br>
+<b> Course Objectives</b><br> 
+        
+    <ol>   
+         
+         
+        <li>To introduce the concepts of Modern Processors.  To introduce Optimization techniques for serial code</li>. <li>To introduce Parallel Computing Paradigms</li>.<li> To introduce Parallel Programming using OpenMP and MPI.</li>
+    </ol> 
+<br><br><b>Expected Outcome</b><br> 
+        
+               <ol> 
+                  
+                   <li>appreciate the concepts used in Modern Processors for increasing the performance.</li>
+                   <li>appreciate Optimization techniques for serial code. </li>
+                   <li>appreciate Parallel Computing Paradigms.</li>
+                   <li>identify the performance issues in Parallel Programming using OpenMP and MPI.</li>
+        
+              
+               
+          </ol>   
+<br><br><b>Text Book</b><br> 
+        
+            
+           
+            <ol>
+                
+               Georg Hager, Gerhard Wellein, Introduction to High Performance Computing for Scientists and Engineers, Chapman & Hall / CRC Computational Science series, 2011.
+              
+            </ol>
+            <br><br><b>Reference Books</b><br> 
+    <ol>
+    
+        
+        <li>Charles Severance, Kevin Dowd, High Performance Computing, O'Reilly Media, 2nd Edition, 1998. </li>
+        <li>Kai Hwang, Faye Alaye Briggs, Computer Architecture and Parallel Processing, McGraw Hill, 1984.</li>
+    
+    
+    
+    </ol>
+        
+        
+<br><br><b>QUESTION PAPER PATTERN (End semester exam)</b><br> 
+        
+        
+         
+         
+        <br> Part A: 8 questions.
+        <br> One question from each module of Module I - IV; and two each from Module V & VI.
+        <br> Student has to answer all questions. (8 x5)=40
+        <br> Part B: 3 questions uniformly covering modules I & II
+        <br> Student has to answer any 2 questions: (2 x 10) =20
+        <br> Part C: 3 questions uniformly covering modules III & IV
+        <br> Student has to answer any 2 questions: (2 x 10) =20
+        <br> Part D: 3 questions uniformly covering modules V & VI
+        <br> Student has to answer any 2 questions: (2 x 10) =20
+        <br> Note: Each question can have maximum of 4 sub questions, if needed.<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+    
+    
+         
+         
+<br><br><br><br><a href="#" ontouchend= "cordova.InAppBrowser.open('http://www.arkinnov.com/ektu/','_blank','location=no','closebuttoncaption=Return');"><div class="footerlogo"><center><img id="i1" src="../../../images/footerlogo.png"></center></div></a><br> <br>
+</body>
+</html>
