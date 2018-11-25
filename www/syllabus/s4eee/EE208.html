@@ -21,7 +21,7 @@
         
       <link rel="stylesheet" href="../../../css/sylb.css">
         <script src="../../../cordova.js"></script> 
-<script type="../../../text/javascript" charset="utf-8">
+<script>
 
 
 function onLoad() {
@@ -39,7 +39,7 @@ function onDeviceReady() {
         
         
     </head>
-     <body>
+     <body onload="onLoad()"><div class="syllabus-container">
         <div class="head"><b>
             
             
@@ -47,7 +47,7 @@ function onDeviceReady() {
             
             
             
-            <span id="homespan"><a href="../../../index.html"><img src="../../../images/home.png" id="homeimg"></a></span>
+            
                   <center><h1>MEASUREMENTS AND INSTRUMENTATION</h1>     
              </center> 
             
@@ -502,13 +502,13 @@ devices
          
          
          
-         <br><br><br><br><a href="#" ontouchend= "cordova.InAppBrowser.open('http://www.arkinnov.com/ektu/','_blank','location=no','closebuttoncaption=Return');"><div class="footerlogo"><center><img id="i1" src="../../../images/footerlogo.png"></center></div></a><br> <br>
+         
          
     
     
     
     
-    </body>
+    </div><!-- container close --> </body>
 
 
 
