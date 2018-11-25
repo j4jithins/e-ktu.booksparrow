@@ -45,8 +45,9 @@ function pageCatcher(branch, semester) {
     if (branch == 0) {
         toLoadSemester = semester;
         toLoadPage = toLoadSemester + toLoadBranch;
-        toLoadPage += ".html"
-        toLoadPage = "syllabus/" + toLoadPage
+        toLoadPage = "#" + toLoadPage;
+        //toLoadPage += ".html"
+        //toLoadPage = "syllabus/" + toLoadPage
         alert(toLoadPage);
         //window.open(toLoadPage, "_self");
         $.mobile.navigate(toLoadPage);
