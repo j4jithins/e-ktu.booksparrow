@@ -48,12 +48,12 @@ function pageCatcher(branch, semester) {
         toLoadPage = "#" + toLoadPage;
         //toLoadPage += ".html"
         //toLoadPage = "syllabus/" + toLoadPage
-        alert(toLoadPage);
+        //alert(toLoadPage);
         //window.open(toLoadPage, "_self");
         $.mobile.navigate(toLoadPage);
     } else {
         toLoadBranch = branch;
-        alert(toLoadBranch);
+        //alert(toLoadBranch);
     }
 }
 //end of pageCatcher code
