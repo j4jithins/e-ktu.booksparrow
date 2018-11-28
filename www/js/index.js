@@ -8,6 +8,8 @@ $(function () {
 
 //this code initiates the swipe functionality of external panel
 $(document).on("pagecreate", function () {
+    //the following line gives the panel the enhancements which donot function otherwise
+    $("[data-role=panel]").panel().enhanceWithin();
     $(document).on("swipeleft swiperight", function (e) {
         // We check if there is no open panel on the page because otherwise
         // a swipe to close the left panel would also open the right panel (and v.v.).
@@ -15,6 +17,7 @@ $(document).on("pagecreate", function () {
         if ($(".ui-page-active").jqmData("panel") !== "open") {
             if (e.type === "swiperight") {
                 $("#left-panel").panel("open");
+                
             }
         }
     });
