@@ -46,3 +46,29 @@ dd {
     float: right;
     margin: 0 2em 1em 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* this is the styling of old syllabus data */
+.div1 {
+    background-color: #2ea9e5;
+    width: 100%;
+    color: white;
+}
+.div2 {
+    width: 15%;
+    float: right;
+    color: white;
+}
+/*old syllabus style ends here*/
