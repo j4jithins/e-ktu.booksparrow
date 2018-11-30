@@ -99,25 +99,24 @@ dd {
 /* *{ box-sizing: border-box; } */
 
 .carousel {
-  background: #EEE;
+  background: #C5CAE9;
 }
 
 .carousel-cell {
   width: 66%;
-  max-height: 100px;
+  max-height: 200px;
   margin-right: 10px;
   border-radius: 5px;
-   
- 
 }
 
-
-
+.flickity-button {
+  visibility: hidden;
+}
+.flickity-page-dots {
+  visibility: hidden;
+}
 .carousel-image
 {max-height: inherit;
     max-width: inherit;
-    
-  
-   
     }
 
