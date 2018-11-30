@@ -66,11 +66,13 @@ dd {
     width: 100%;
     color: white;
 }
+
 .div2 {
     width: 15%;
     float: right;
     color: white;
 }
+
 /*old syllabus style ends here*/
 
 
@@ -99,24 +101,30 @@ dd {
 /* *{ box-sizing: border-box; } */
 
 .carousel {
-  background: #C5CAE9;
+   
+    max-height: 200px;
 }
 
 .carousel-cell {
-  width: 66%;
-  max-height: 200px;
-  margin-right: 10px;
-  border-radius: 5px;
+    width: 66%;
+    max-height: 100px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-align: abs-middle;
+    color: white;
+    font-size: 30px;
 }
 
 .flickity-button {
-  visibility: hidden;
+    visibility: hidden;
 }
-.flickity-page-dots {
-  visibility: hidden;
-}
-.carousel-image
-{max-height: inherit;
-    max-width: inherit;
-    }
 
+.flickity-page-dots {
+    visibility: hidden;
+}
+
+.carousel-image {
+    max-height: inherit;
+    max-width: inherit;
+}
