@@ -72,3 +72,52 @@ dd {
     color: white;
 }
 /*old syllabus style ends here*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* external css: flickity.css */
+
+/* *{ box-sizing: border-box; } */
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  width: 66%;
+  max-height: 100px;
+  margin-right: 10px;
+  border-radius: 5px;
+   
+ 
+}
+
+
+
+.carousel-image
+{max-height: inherit;
+    max-width: inherit;
+    
+  
+   
+    }
+

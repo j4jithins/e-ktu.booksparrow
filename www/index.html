@@ -6,13 +6,9 @@
     <title>index</title>
 
     <link rel="stylesheet" href="css/index.css">
-
     <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
     <link rel="stylesheet" href="css/e-ktu-theme.min.css">
-
-
-
-
+    <link rel="stylesheet" href="css/flickity.min.css">
 
     <script src="js/jquery.js"></script>
     <script src="js/index.js"></script>
@@ -40,6 +36,20 @@
         <div role="main" class="ui-content">
 
 
+            <!-- try slider here -->
+            <div>
+                <!-- Flickity HTML init -->
+                <div class="carousel" data-flickity='{ "autoPlay": true, "wrapAround": true }'>
+                    <div class="carousel-cell" id="carousel-image-1"><img class="carousel-image" src="images/1.jpg" style="width:100%"> </div>
+                    <div class="carousel-cell" id="carousel-image-2"><img class="carousel-image" src="images/2.jpg" style="width:100%"></div>
+                    <div class="carousel-cell" id="carousel-image-3"><img class="carousel-image" src="images/3.jpg" style="width:100%"></div>
+                    <div class="carousel-cell" id="carousel-image-4"><img class="carousel-image" src="images/4.jpg" style="width:100%"></div>
+                    <div class="carousel-cell" id="carousel-image-5"><img class="carousel-image" src="images/5.jpg" style="width:100%"></div>
+                </div>
+            </div><br height="100px">
+            <script src="js/flickity.pkgd.min.js"></script>
+
+            <!--end slider here -->
 
 
 
@@ -55,6 +65,15 @@
                 <div class="ui-block-b" onclick="pageCatcher('ae',0)"><a href="#branch-page" class="ui-shadow ui-btn ui-corner-all"><img src="images/aei.svg" width="50" align="absmiddle"><br>AEI</a></div>
             </div><!-- /branch names-->
         </div><!-- /content -->
+
+
+
+
+
+
+
+
+
     </div><!-- /home page -->
 
 
@@ -12845,18 +12864,18 @@
 
         <ul data-role="listview">
             <li><a href="#">Notifications</a></li>
-            <li><a href="ktu.html">K.T.U.</a></li>
+            <li><a href="https://booksparrow.com/e-ktu/wp-json/ee206-material-science/">K.T.U.</a></li>
             <li><a href="notes.html">StudyMaterials </a></li>
             <li><a href="market://details?id=com.arkinnov.ektu">Update App</a></li>
         </ul>
-        
+
 
         <hr>
-            <div class="ui-grid-b">
-                <div class="ui-block-a"><a href="mailto:arkinnov@gmail.com?subject=ektuappfeedback" class="ui-shadow ui-btn ui-corner-all"><img src="images/gmail.svg" width="40" align="absmiddle"></a></div>
-                <div class="ui-block-b"><a href="https://www.facebook.com/ektu.arkinnov" class="ui-shadow ui-btn ui-corner-all"><img src="images/facebook.svg" width="40" align="absmiddle"></a></div>
-                <div class="ui-block-c"><a href="https://api.whatsapp.com/send?phone=919495896186" class="ui-shadow ui-btn ui-corner-all"><img src="images/whatsapp.svg" width="40" align="absmiddle"></a></div>
-                
+        <div class="ui-grid-b">
+            <div class="ui-block-a"><a href="mailto:arkinnov@gmail.com?subject=ektuappfeedback" class="ui-shadow ui-btn ui-corner-all"><img src="images/gmail.svg" width="40" align="absmiddle"></a></div>
+            <div class="ui-block-b"><a href="https://www.facebook.com/ektu.arkinnov" class="ui-shadow ui-btn ui-corner-all"><img src="images/facebook.svg" width="40" align="absmiddle"></a></div>
+            <div class="ui-block-c"><a href="https://api.whatsapp.com/send?phone=919495896186" class="ui-shadow ui-btn ui-corner-all"><img src="images/whatsapp.svg" width="40" align="absmiddle"></a></div>
+
         </div>
     </div><!-- /panel -->
 
