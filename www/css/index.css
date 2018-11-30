@@ -101,13 +101,15 @@ dd {
 /* *{ box-sizing: border-box; } */
 
 .carousel {
-   
+    background: #777;
     max-height: 200px;
+    
 }
 
 .carousel-cell {
-    width: 66%;
-    max-height: 100px;
+    
+    width: 100%;
+    max-height: 150px;
     margin-right: 10px;
     border-radius: 5px;
     text-align: center;
