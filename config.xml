@@ -17,6 +17,7 @@
     <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
     <platform name="android">
+        <preference name="android-targetSdkVersion" value="19" />
         <allow-intent href="market:*" />
         <icon src="www/images/ektuicon.png" />
     </platform>
