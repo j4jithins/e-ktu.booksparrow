@@ -4,8 +4,8 @@
     <description>
         An educational app for KTU students
     </description>
-    <author email="arkinnov@gmail.com" href="http://www.arkinnov.com/ektu/">
-        Arkinnov team
+    <author email="arkinnov@gmail.com" href="https://www.booksparrow.com/ektu/">
+        BookSparrow Solutions
     </author>
     <content src="index.html" />
     <access origin="*" />
@@ -20,11 +20,11 @@
         <allow-intent href="market:*" />
         <icon src="www/images/ektuicon.png" />
     </platform>
-    
+
     <engine name="android" spec="^6.2.3" />
     <plugin name="cordova-plugin-inappbrowser" spec="^1.7.1" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.2" />
     <preference name="Orientation" value="portrait" />
-    
-    
+
+
 </widget>
