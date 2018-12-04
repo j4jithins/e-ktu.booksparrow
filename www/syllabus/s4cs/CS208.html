@@ -1,134 +1,157 @@
-
 <html>
+
 <head>
-<title>
-            
-CS208
-            
-            
-</title>
-<link rel="stylesheet" href="../../../css/sylb.css">
-<script src="../../../cordova.js"></script> 
-<script>
-function onLoad() {
-document.addEventListener("deviceready", onDeviceReady, false);
-}
-function onDeviceReady() {
-}
-</script>  
+    <title>
+
+        CS208
+
+
+    </title>
+    <link rel="stylesheet" href="../../../css/sylb.css">
+    <script src="../../../cordova.js"></script>
+    <script>
+        function onLoad() {
+            document.addEventListener("deviceready", onDeviceReady, false);
+        }
+
+        function onDeviceReady() {}
+
+    </script>
 </head>
-<body onload="onLoad()">  <div data-role="page" data-theme="c"> <div class="ui-content">
-<div class="head"><b>
 
-<center><h1> 
- Principles of Database Design
-    
-    
-</h1></center>  
-</b></div>  
-<br><br><b>
-    
-    Syllabus
-    
-</b><p>
-    
-    Types of data, database and DBMS, Languages and users. Software Architecture, E-R and Extended E-R Modelling, Relational Model – concepts and languages, relational algebra and tuple relational calculus, SQL, views, assertions and triggers, relational db design, FDs and normal forms, Secondary storage organization, indexing and hashing, query optimization, concurrent transaction processing and recovery principles, recent topics.
-    
-    
-     </p><br><div class="div1"><b>&nbsp; Module I<div class="div2">15%</div> </b> </div>
-    
-    
-  Introduction: Data: structured, semi-structured and unstructured data, Concept & Overview of DBMS, Data Models, Database Languages, Database Administrator, Database Users, Three Schema architecture of DBMS. Database architectures and classification. (Reading: Elmasri Navathe, Ch. 1 and 2. Additional Reading: Silbershatz, Korth, Ch. 1) Entity-Relationship Model: Basic concepts, Design Issues, Mapping Constraints, Keys, Entity-
-Relationship Diagram, Weak Entity Sets, Relationships of degree greater than 2 (Reading: Elmasri Navathe, Ch. 7.1-7.8)
-         
-<br><br><div class="div1"><b> &nbsp; Module II<div class="div2">15%</div> </b> </div>
-   
-    Relational Model: Structure of relational Databases, Integrity Constraints, synthesizing ER diagram to relational schema (Reading: Elmasri Navathe, Ch. 3 and 8.1, Additional Reading: Silbershatz, Korth, Ch. 2.1-2.4) Database Languages: Concept of DDL and DML relational algebra (Reading: Silbershatz, Korth, Ch 2.5-2.6 and 6.1-6.2, Elmasri Navathe, Ch. 6.1-6.5)
-    
-<hr>FIRST INTERNAL EXAMINATION<hr>
-<br><div class="div1"><b>&nbsp; Module III<div class="div2">15%</div> </b> </div>
-       
-         
-    Structured Query Language (SQL): Basic SQL Structure, examples, Set operations, Aggregate Functions, nested sub-queries (Reading: Elmasri Navathe, Ch. 4 and 5.1) Views, assertions and triggers (Reading: Elmasri Navathe, Ch. 5.2-5.3, Optional reading: Silbershatz, Korth Ch. 5.3).
-<br><br><div class="div1"><b>&nbsp; Module IV<div class="div2">15%</div> </b> </div>
-        
+<body onload="onLoad()">
+    <div data-role="page" data-theme="c">
+        <div class="ui-content">
+            <div class="head"><b>
 
- Relational Database Design: Different anomalies in designing a database, normalization, functional dependency (FD), Armstrong’s Axioms, closures, Equivalence of FDs, minimal Cover (proofs not required). Normalization using functional dependencies, INF, 2NF, 3NF and BCNF, lossless and dependency preserving decompositions (Reading: Elmasri and Navathe, Ch. 14.1-14.5, 15.1-15.2. Additional Reading: Silbershatz, Korth Ch. 8.1-8.5)
+                    <center>
+                        <h1>
+                            Principles of Database Design
 
-<hr>SECOND INTERNAL EXAMINATION<hr>
-<br><div class="div1"><b>&nbsp; Module V<div class="div2">20%</div> </b> </div>
-      
-  Physical Data Organization: index structures, primary, secondary and clustering indices, Single level and Multi-level indexing, B+-Trees (basic structure only, algorithms not needed), (Reading Elmasri and Navathe, Ch. 17.1-17.4) Query Optimization: heuristics-based query optimization, (Reading Elmasri and Navathe, Ch. 18.1, 18.7)
-         
-<br><br><div class="div1"><b>&nbsp; Module VI<div class="div2">20%</div> </b> </div>
-        
- Transaction Processing Concepts: overview of concurrency control and recovery acid properties, serial and concurrent schedules, conflict serializability. Two-phase locking, failure classification, storage structure, stable storage, log based recovery, deferred database modification, check-pointing, (Reading Elmasri and Navathe, Ch. 20.1-20.5 (except 20.5.4-20.5.5) , Silbershatz, Korth Ch. 15.1 (except 15.1.4-15.1.5), Ch. 16.1 – 16.5) Recent topics (preliminary ideas only): Semantic Web and RDF(Reading: Powers Ch.1, 2), GIS, biological databases (Reading: Elmasri and Navathe Ch. 23.3-23.4) Big Data (Reading: Plunkett and Macdonald, Ch. 1, 2)
-<hr>END SEMESTER EXAM<hr> 
-<br><div class="div3"></div><br>
-    
-    
-<b> Course Objectives</b><br>
-    <ol>
-<li>To impart the basic understanding of the theory and applications of database management systems.
-<li>To give basic level understanding of internals of database systems.
-<li>To expose to some of the recent trends in databases.
-     </ol>
-    <br><div class="div3"></div><br>
-    
-<b> Expected outcome</b><br>
-    <ol>
-Students will be able to:
-<li> define, explain and illustrate the fundamental concepts of databases.
-<li> construct an Entity-Relationship (E-R) model from specifications and to perform the transformation of the conceptual model into corresponding logical data structures.
-<li> model and design a relational database following the design principles.
-<li> develop queries for relational database in the context of practical applications
-<li> define, explain and illustrate fundamental principles of data organization, query optimization and concurrent transaction processing.
-<li> appreciate the latest trends in databases.
-          </ol>  
-    
-<br><br><b>Text Book</b><br> 
-  
+
+                        </h1>
+                    </center>
+                </b></div>
+
+            <a href="https://booksparrow.com/e-ktu/cs208-principles-of-database-design/" class="ui-btn">Study Materials</a>
+            <br><br><b>
+
+                Syllabus
+
+            </b>
+            <p>
+
+                Types of data, database and DBMS, Languages and users. Software Architecture, E-R and Extended E-R Modelling, Relational Model – concepts and languages, relational algebra and tuple relational calculus, SQL, views, assertions and triggers, relational db design, FDs and normal forms, Secondary storage organization, indexing and hashing, query optimization, concurrent transaction processing and recovery principles, recent topics.
+
+
+            </p><br>
+            <div class="div1"><b>&nbsp; Module I<div class="div2">15%</div> </b> </div>
+
+
+            Introduction: Data: structured, semi-structured and unstructured data, Concept & Overview of DBMS, Data Models, Database Languages, Database Administrator, Database Users, Three Schema architecture of DBMS. Database architectures and classification. (Reading: Elmasri Navathe, Ch. 1 and 2. Additional Reading: Silbershatz, Korth, Ch. 1) Entity-Relationship Model: Basic concepts, Design Issues, Mapping Constraints, Keys, Entity-
+            Relationship Diagram, Weak Entity Sets, Relationships of degree greater than 2 (Reading: Elmasri Navathe, Ch. 7.1-7.8)
+
+            <br><br>
+            <div class="div1"><b> &nbsp; Module II<div class="div2">15%</div> </b> </div>
+
+            Relational Model: Structure of relational Databases, Integrity Constraints, synthesizing ER diagram to relational schema (Reading: Elmasri Navathe, Ch. 3 and 8.1, Additional Reading: Silbershatz, Korth, Ch. 2.1-2.4) Database Languages: Concept of DDL and DML relational algebra (Reading: Silbershatz, Korth, Ch 2.5-2.6 and 6.1-6.2, Elmasri Navathe, Ch. 6.1-6.5)
+
+            <hr>FIRST INTERNAL EXAMINATION
+            <hr>
+            <br>
+            <div class="div1"><b>&nbsp; Module III<div class="div2">15%</div> </b> </div>
+
+
+            Structured Query Language (SQL): Basic SQL Structure, examples, Set operations, Aggregate Functions, nested sub-queries (Reading: Elmasri Navathe, Ch. 4 and 5.1) Views, assertions and triggers (Reading: Elmasri Navathe, Ch. 5.2-5.3, Optional reading: Silbershatz, Korth Ch. 5.3).
+            <br><br>
+            <div class="div1"><b>&nbsp; Module IV<div class="div2">15%</div> </b> </div>
+
+
+            Relational Database Design: Different anomalies in designing a database, normalization, functional dependency (FD), Armstrong’s Axioms, closures, Equivalence of FDs, minimal Cover (proofs not required). Normalization using functional dependencies, INF, 2NF, 3NF and BCNF, lossless and dependency preserving decompositions (Reading: Elmasri and Navathe, Ch. 14.1-14.5, 15.1-15.2. Additional Reading: Silbershatz, Korth Ch. 8.1-8.5)
+
+            <hr>SECOND INTERNAL EXAMINATION
+            <hr>
+            <br>
+            <div class="div1"><b>&nbsp; Module V<div class="div2">20%</div> </b> </div>
+
+            Physical Data Organization: index structures, primary, secondary and clustering indices, Single level and Multi-level indexing, B+-Trees (basic structure only, algorithms not needed), (Reading Elmasri and Navathe, Ch. 17.1-17.4) Query Optimization: heuristics-based query optimization, (Reading Elmasri and Navathe, Ch. 18.1, 18.7)
+
+            <br><br>
+            <div class="div1"><b>&nbsp; Module VI<div class="div2">20%</div> </b> </div>
+
+            Transaction Processing Concepts: overview of concurrency control and recovery acid properties, serial and concurrent schedules, conflict serializability. Two-phase locking, failure classification, storage structure, stable storage, log based recovery, deferred database modification, check-pointing, (Reading Elmasri and Navathe, Ch. 20.1-20.5 (except 20.5.4-20.5.5) , Silbershatz, Korth Ch. 15.1 (except 15.1.4-15.1.5), Ch. 16.1 – 16.5) Recent topics (preliminary ideas only): Semantic Web and RDF(Reading: Powers Ch.1, 2), GIS, biological databases (Reading: Elmasri and Navathe Ch. 23.3-23.4) Big Data (Reading: Plunkett and Macdonald, Ch. 1, 2)
+            <hr>END SEMESTER EXAM
+            <hr>
+            <br>
+            <div class="div3"></div><br>
+
+
+            <b> Course Objectives</b><br>
             <ol>
-<li> Elmasri R. and S. Navathe, Database Systems: Models, Languages, Design andApplication Programming, Pearson Education, 2013.
-<li> Sliberschatz A., H. F. Korth and S. Sudarshan, Database System Concepts, 6/e, McGraw Hill, 2011.
+                <li>To impart the basic understanding of the theory and applications of database management systems.
+                <li>To give basic level understanding of internals of database systems.
+                <li>To expose to some of the recent trends in databases.
             </ol>
-            
-        
-        
-            <br><br><b>Reference Books</b><br> 
-        
-            
-           
+            <br>
+            <div class="div3"></div><br>
+
+            <b> Expected outcome</b><br>
             <ol>
-<li>Powers S., Practical RDF, O’Reilly Media, 2003.
-<li>Plunkett T., B. Macdonald, et al., Oracle Big Data Hand Book, Oracle Press, 2013.
-  </ol>
-        
-<br><br><b>QUESTION PAPER PATTERN (End semester exam)</b><br> 
-        
-        
-         
-         
-        <br> Part A: a. Total marks : 12
-                    
-        <br>b. Four questions each having 3 marks, uniformly covering module I and II; All four questions have to be answered.
-        
-        <br> Part B:
-    a. Total marks : 18
-                   <br> b. Three questions each having 9 marks, uniformly covering module I and II; Two questions have to be answered. Each question can have a maximum of three subparts
-        <br> Part C:a. Total marks : 12
-                    <br> b. Four questions each having 3 marks, uniformly covering module III and IV; All four questions have to be answered.
-        <br> Part D: a. Total marks : 18
-                    <br>  b. Three questions each having 9 marks, uniformly covering module III and IV; Two questions have to be answered. Each question can have a maximum of three subparts
-    <br>part E:   a. Total Marks: 40
- <br>b. Six questions each carrying 10 marks, uniformly covering modules V and VI; four questions have to be answered.
- <br>c. A question can have a maximum of three sub-parts.
-        <br> Note: Each question can have maximum of 4 sub questions, if needed.
-    <br>  There should be at least 60% analytical/numerical/design questions. <br>
+                Students will be able to:
+                <li> define, explain and illustrate the fundamental concepts of databases.
+                <li> construct an Entity-Relationship (E-R) model from specifications and to perform the transformation of the conceptual model into corresponding logical data structures.
+                <li> model and design a relational database following the design principles.
+                <li> develop queries for relational database in the context of practical applications
+                <li> define, explain and illustrate fundamental principles of data organization, query optimization and concurrent transaction processing.
+                <li> appreciate the latest trends in databases.
+            </ol>
 
-    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
-         
-         
+            <br><br><b>Text Book</b><br>
 
-</div></div><!-- container close --> </body>
+            <ol>
+                <li> Elmasri R. and S. Navathe, Database Systems: Models, Languages, Design andApplication Programming, Pearson Education, 2013.
+                <li> Sliberschatz A., H. F. Korth and S. Sudarshan, Database System Concepts, 6/e, McGraw Hill, 2011.
+            </ol>
+
+
+
+            <br><br><b>Reference Books</b><br>
+
+
+
+            <ol>
+                <li>Powers S., Practical RDF, O’Reilly Media, 2003.
+                <li>Plunkett T., B. Macdonald, et al., Oracle Big Data Hand Book, Oracle Press, 2013.
+            </ol>
+
+            <br><br><b>QUESTION PAPER PATTERN (End semester exam)</b><br>
+
+
+
+
+            <br> Part A: a. Total marks : 12
+
+            <br>b. Four questions each having 3 marks, uniformly covering module I and II; All four questions have to be answered.
+
+            <br> Part B:
+            a. Total marks : 18
+            <br> b. Three questions each having 9 marks, uniformly covering module I and II; Two questions have to be answered. Each question can have a maximum of three subparts
+            <br> Part C:a. Total marks : 12
+            <br> b. Four questions each having 3 marks, uniformly covering module III and IV; All four questions have to be answered.
+            <br> Part D: a. Total marks : 18
+            <br> b. Three questions each having 9 marks, uniformly covering module III and IV; Two questions have to be answered. Each question can have a maximum of three subparts
+            <br>part E: a. Total Marks: 40
+            <br>b. Six questions each carrying 10 marks, uniformly covering modules V and VI; four questions have to be answered.
+            <br>c. A question can have a maximum of three sub-parts.
+            <br> Note: Each question can have maximum of 4 sub questions, if needed.
+            <br> There should be at least 60% analytical/numerical/design questions. <br>
+
+            <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+
+
+        </div>
+    </div><!-- container close -->
+</body>
+
 </html>
