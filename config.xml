@@ -17,6 +17,7 @@
     <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
     <allow-intent href="whatsapp:*" />
+    <allow-intent href="facebook:*" />
     <platform name="android">
         <preference name="android-targetSdkVersion" value="26" />
         <allow-intent href="market:*" />
